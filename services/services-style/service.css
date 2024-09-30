@@ -1,0 +1,215 @@
+
+.myaccordion{
+    background-color: black;
+}
+
+.accordion-collapse{
+    background-color: black;
+    color: white;
+}
+.accordion-button{
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 5vh 0;
+
+}
+.accordion{
+    margin-top: 6vh;
+}
+
+/* media query for large devices with max width 992px */
+
+@media (max-width:992px) {
+    .about-option-description {
+        padding: 0 10vw;
+        text-align: center;
+
+    }
+    .about-options-sideheading h1{
+        font-size: 5vw;
+        line-height: 12vh;
+    }
+    
+}
+/* media query for large devices with max width 992px */
+
+
+
+/* media query for medium devices with max width 768px */
+@media (max-width:768px) {
+    .mymain{
+        padding: 15vh 0;
+    }
+    /* .main-left p{
+        font-size: 6vw;
+    } */
+
+    .navigate-btn{
+        width: 10%;
+    }
+
+
+}
+/* media query for medium devices with max width 768px */
+
+
+
+
+
+
+
+
+
+
+
+/* media query for small devices with max width 480px */
+@media (max-width:480px) {
+    .mymain{
+        padding: 10vh 0;
+    }
+    /* .main-left p{
+        font-size: 8.5vw;
+    } */
+    .navigate-btn{
+        width: 15%;
+    }
+    .d-flex {
+        justify-content: center;
+    }
+
+}
+/* media query for small devices with max width 480px */
+
+
+
+
+
+/* service section style */
+
+
+.service-detail-section{
+    margin: 20vh auto;
+}
+
+.service-detail-section p{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48.6px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.service-section-item{
+    padding: 0 1.5vw;
+    text-wrap: balance;
+}
+.service-section-item p{
+    font-size: 17.16px;
+    font-weight: 400;
+    line-height: 23.16px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.service-card-section{
+    background: rgba(239, 239, 239, 1);
+    color: black;
+    padding: 8vh 0;
+
+}
+.service-flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:30px;
+    padding:5vh 0;
+
+}
+.service-card-item{
+    text-wrap: balance;
+    flex: 1 1 30%;
+    height: auto;
+    border-radius: 10px;
+    background: rgba(226, 226, 226, 1);
+
+}
+.service-card-item h4{
+    font-weight: bold;
+    margin-bottom: 4vh;
+}
+.service-card-item p{
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 27px;
+        text-align: left;
+}
+
+
+
+
+@media (max-width:992px) {
+    .service-card-item{
+        flex: 1 1 45%; /* Adjust to 45% width on smaller devices */
+    }
+    .service-section-item{
+        padding: 0;
+    }
+    .service-card-item p{
+        font-size: 17px;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .service-detail-section p{
+        font-size: 28px;
+    }
+    .service-section-item{
+        padding: 0 8vw;
+    }
+    .service-section-item p{
+        font-size: 18px;
+        line-height: 25px;
+
+    }
+    .service-card-item{
+        flex: 1 1 100%; /* Adjust to 45% width on smaller devices */
+    }
+    .service-flex-container{
+        padding: 15px 0;
+        
+    }
+  
+    
+}
+
+
+@media (max-width:480px) {
+    .service-detail-section p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .service-section-item{
+        text-align: center;
+        padding: 0 4vw;
+    }
+    .service-section-item p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .service-card-item p{
+        font-size: 15px;
+    }
+    .service-detail-section{
+        margin: 8vh auto;
+    }
+    
+
+}
+/* service section style */

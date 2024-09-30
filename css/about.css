@@ -1,0 +1,198 @@
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+.mymain{
+    padding: 30vh 0;
+    background-image:
+    radial-gradient(42.44% 42.44% at 50% 57.56%, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.2688) 100%), 
+    url('/media/tall-trees-forest-mountains-covered-with-fog\ 1.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height:auto;
+    
+}
+
+.about-option-section-top{
+    margin:6vh 6vw;
+    height: fit-content;
+    color: white;
+}
+
+.about-option-heading hr{
+    border: 1px solid rgba(126, 126, 126, 1);
+    /* margin: 0 1vw; */
+}
+.about-option-header .row{
+    padding-top: 4vh;
+
+}
+.about-option-navigate{
+    text-align: right;
+}
+
+#about-option-content{
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+#about-option-content.fade-out {
+    opacity: 0;
+}
+
+#about-bottom-content{
+    opacity: 1;
+    transition: opacity 0.8s ease-in-out;
+}
+#about-bottom-content.fade-out {
+    opacity: 0;
+}   
+
+
+.about-option{
+    color: rgba(126, 126, 126, 1);
+}
+
+.about-options-sideheading h1{
+
+    font-size: 4.5vw;
+    font-weight: 900;
+    line-height: 15vh;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding-left: 4vw;
+    color:rgba(130, 130, 130, 1);
+
+}
+
+.about-options-sideheading h1.active-option{
+    color:white;
+}
+
+.about-option-section-bottom {
+    text-align: center;
+}
+
+.active-option{
+    color:white;
+}
+.second-banner{
+    background-image:
+    linear-gradient(92.78deg, #000000 23.15%, rgba(0, 0, 0, 0.15) 62.14%), 
+    url('/media/Rectangle\ 1120.png');
+
+}
+.myaccordion{
+    background-color: black;
+}
+p.medium-heading {
+        color: white;
+}
+.accordion-button:not(.collapsed) {
+    background-color:black;
+}
+.accordion-collapse{
+    background-color: black;
+    color: white;
+}
+.accordion-button{
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 5vh 0;
+
+}
+.accordion{
+    margin-top: 6vh;
+}
+
+/* media query for large devices with max width 992px */
+
+@media (max-width:992px) {
+    .about-option-description {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.25em;
+
+    }
+    .about-options-sideheading h1{
+        font-size: 5vw;
+        line-height: 12vh;
+    }
+    
+}
+/* media query for large devices with max width 992px */
+
+
+
+/* media query for medium devices with max width 768px */
+@media (max-width:768px) {
+    .mymain{
+        padding: 15vh 0;
+    }
+
+    .navigate-btn{
+        width: 10%;
+    }
+    .about-options-sideheading h1{
+        font-size: 6vw;
+        line-height: 10vh;
+        text-align: center;
+    }
+    .about-description{
+        width: 51%;
+        text-align: center;
+    }
+
+}
+/* media query for medium devices with max width 768px */
+
+
+
+
+
+
+
+
+
+
+
+/* media query for small devices with max width 480px */
+@media (max-width:480px) {
+    .mymain{
+        padding: 10vh 0;
+    }
+    /* .main-left p{
+        font-size: 8.5vw;
+    } */
+    .navigate-btn{
+        width: 15%;
+    }
+    .about-options-sideheading h1{
+        font-size: 7vw;
+        line-height: 8vh;
+        padding: 0;
+    }
+    .about-option-navigate{
+        text-align: center;
+    }
+    
+    #about-bottom-content {
+        margin-top: 30px;
+    }
+    .about-description {
+        width: 100%;
+        text-align: center;
+    }
+    .accordion-body {
+        font-size: 0.8rem;
+    }
+}
+/* media query for small devices with max width 480px */
+
+
